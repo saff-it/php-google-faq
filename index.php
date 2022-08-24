@@ -82,15 +82,19 @@
 
         </div>
 
-        <div class="bottom-header">
-
+        <div class="ms_bottom-header">
+            <span>Overview</span>
+            <span>Privacy Policy</span>
+            <span>Term of Service</span>
+            <span>Technologies</span>
+            <span>FAQ</span>
         </div>
 
     </header>
 
     <main>
         <section>
-            <div class="container my-5">
+            <div class="container my-5 w-75">
                 <?php 
                     foreach ($paragraphs as $paragraph) {
                 ?>

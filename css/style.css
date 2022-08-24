@@ -1,3 +1,6 @@
+header{
+    border-bottom: 1px solid dimgrey;
+}
 
 .ms_top-header{
     display: flex;
@@ -29,4 +32,17 @@
     color: white;
     margin: 0 12px;
     font-size: 0.9rem;
+}
+
+
+.ms_bottom-header{
+    margin-bottom: 10px;
+}
+.ms_bottom-header span{
+    margin: 0 13px;
+    font-size: 0.9rem;
+}
+
+div.container{
+    
 }
