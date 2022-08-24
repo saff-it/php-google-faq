@@ -1,6 +1,32 @@
 
+.ms_top-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ms_left-top span{
+    font-size: 1.2rem;
+}
+
 .ms_header-logo{
     height: 50px;
-    padding: 13px;
+    padding: 13px 0 13px 13px;
+    display: inline-block;
+    align-items: center;
     
+}
+
+.ms_right-top i{
+    padding: 13px 0 13px 13px;
+    font-size: 1.2rem;
+}
+
+.ms_right-top div{
+    display: inline-block;
+    background-color: orange;
+    padding: 4px 12px;
+    border-radius: 50%;
+    color: white;
+    margin: 0 12px;
+    font-size: 0.9rem;
 }
