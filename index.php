@@ -18,7 +18,7 @@
         ],
         [
             'title' => 'Why is my account associated with a country?',
-            'paragraph' => '',
+            'paragraph' => "",
         ],
         [
             'title' => "How can I remove information about myself from Google's search results?",
@@ -51,8 +51,15 @@
     <main>
         <section>
             <div class="container">
-                <h1>ttutle</h1>
-                <p> paragraph </p>
+                <?php 
+                    foreach ($paragraphs as $paragraph) {
+                ?>
+                    <h2> <?php echo $paragraph['title'] ?></h2>
+                    <p> <?php echo $paragraph['paragraph'] ?> </p>
+
+                <?php
+                    }
+                ?>
             </div>
         </section>
     </main>
