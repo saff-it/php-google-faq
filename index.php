@@ -18,7 +18,20 @@
         ],
         [
             'title' => 'Why is my account associated with a country?',
-            'paragraph' => "",
+            'paragraph' => "Your account is associated with a country (or territory) in the Terms of Service so that we can determine two things:
+
+                            <ol> <li>The Google affiliate that provides the services, that processes your information, and that is responsible for complying with applicable privacy laws. Generally, Google offers its consumer services through either of two companies:</li>
+                            <ol> <li type='a'>Google Ireland Limited, if you’re located in the European Economic Area (EU countries plus Iceland, Liechtenstein, and Norway) or Switzerland </li>
+                            <li type='a'> Google LLC, based in the United States, for the rest of the world </li> </ol>
+                            <li> The version of the terms that govern our relationship, which can vary depending on local laws </li> </ol>
+                            <p> Keep in mind that Google services are essentially the same regardless of the affiliate that provides the services or your country association. </p>
+                            
+                            <h4> Determining the country associated with your account </h4>
+                            <p>When you create a new account, we associate your account with a country based on where you created your Google Account. For accounts at least a year old, we use the country from which you usually access Google services — typically where you’ve spent the most time in the last year.</p>
+                            
+                            <p>Frequent travel doesn’t generally affect the country associated with your account. If you move to a new country, it can take about a year for your country association to update.</p>
+                            
+                            If the country associated with your account doesn’t correspond to your country of residence, it could be because of a difference between your country of work and residence, because you’ve installed a Virtual Private Network (VPN) to mask your IP address, or because you live close to a territorial border. Contact us if you think your country association is wrong.",
         ],
         [
             'title' => "How can I remove information about myself from Google's search results?",
@@ -54,8 +67,14 @@
                 <?php 
                     foreach ($paragraphs as $paragraph) {
                 ?>
-                    <h2 class="mb-4"> <?php echo $paragraph['title']; ?> </h2>
-                    <p> <?php
+                    <h2 class="mb-4"> 
+                        <?php 
+                            echo $paragraph['title']; 
+                        ?> 
+                    </h2>
+
+                    <p> 
+                        <?php
                             echo $paragraph['paragraph'];
                         ?> 
                     </p>
