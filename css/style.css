@@ -1,5 +1,14 @@
 header{
     border-bottom: 1px solid dimgrey;
+    position: fixed;
+    z-index: 3;
+    background-color: white;
+    width: 100%;
+}
+
+main{
+    overflow: hidden;
+    padding-top: 100px;
 }
 
 .ms_top-header{
@@ -44,5 +53,5 @@ header{
 }
 
 div.container{
-    
+
 }
